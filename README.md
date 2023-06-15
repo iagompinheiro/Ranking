@@ -1,5 +1,7 @@
 # Ranking
 
+Trabalho da faculdade em que fomos desafiados a criar um sistema de ranking que utiliza como base a estrutura de uma lista encadeada.
+
 Este código implementa um sistema de ranking interativo em JavaScript usando o terminal como interface. Ele permite ao usuário realizar as seguintes operações:
 
 1. Inserir elementos no ranking: O usuário pode inserir um elemento e ele será adicionado ao ranking, que será reordenado em ordem ascendente.
