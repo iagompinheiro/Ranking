@@ -29,7 +29,7 @@ function printRanking() {
 }
 
 // Solicita para o usuário inserir os elementos
-function inserirElement() {
+function insereElement() {
   rl.question('Digite o elemento a ser inserido: ', (element) => {
     ranking.push(element)
     ranking.sort()
@@ -78,7 +78,7 @@ function orgOrdem() {
 }
 
 // Define a ordem do ranking (ascendente ou descendente)
-function definirOrdem() {
+function defineOrdem() {
   rl.question('Escolha a ordem do ranking (ascendente ou descendente): ', (ordem) => {
     if (ordem.toLowerCase() === 'ascendente') {
       ascendenteOrdem = true
