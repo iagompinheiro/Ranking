@@ -29,7 +29,7 @@ function printRanking() {
 }
 
 // Solicita para o usuário inserir os elementos
-function insereElement() {
+function insereElemento() {
   rl.question('Digite o elemento a ser inserido: ', (element) => {
     ranking.push(element)
     ranking.sort()
@@ -39,7 +39,7 @@ function insereElement() {
 }
 
 // Faz a alteração de elementos conforme escolha do usuário
-function alteraElement() {
+function alteraElemento() {
   rl.question('Digite o índice do elemento a ser alterado: ', (index) => {
     if (index >= 1 && index <= ranking.length) {
       rl.question('Digite o novo valor do elemento: ', (newValue) => {
@@ -56,7 +56,7 @@ function alteraElement() {
 }
 
 // Remove elemento conforme escolha do usuário
-function removeElement() {
+function removeElemento() {
   rl.question('Digite o elemento a ser removido: ', (index) => {
     if (index >= 1 && index <= ranking.length) {
       ranking.splice(index - 1, 1) // splice adiciona elementos enquanto remove elementos
