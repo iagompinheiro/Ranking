@@ -21,6 +21,7 @@ Ele permite ao usuário realizar as seguintes operações:
 
 ## Tecnologias utilizadas
 -> JavaScript
+
 -> NodeJS
 
 ## Autor
