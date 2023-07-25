@@ -20,9 +20,9 @@ Ele permite ao usuário realizar as seguintes operações:
 5. Definir explicitamente a ordem do ranking;
 
 ## Tecnologias utilizadas
--> JavaScript
+ ● JavaScript
 
--> NodeJS
+ ● NodeJS
 
 ## Autor
 Iago Marcelino Pinheiro
